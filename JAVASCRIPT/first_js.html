@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first time execute js</title>
+    <script>
+        console.log('hello world');
+        function clickMe(){
+            document.getElementById('my-para').innerHTML ='this is a new para graph';
+        }
+        function styleme(){
+            document.getElementById('my-para').style.color ='red';
+        }
+    </script>
+</head>
+<body>
+    <h1>the welcom js</h1>
+    <p id="my-para">this is demo pragraph</p>
+    <button onclick="clickMe()">click me</button>
+    <button onclick="styleme()">style me</button>
+</body>
+</html>
